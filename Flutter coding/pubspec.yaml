@@ -1,0 +1,38 @@
+name: the_app
+description: The App.
+publish_to: none
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications:
+    path: ../
+  flutter_bloc: ^7.0.1
+  bubble: ^1.2.1
+  circular_bottom_navigation: ^1.0.1
+  cupertino_icons: ^1.0.3
+  device_info: ^2.0.2
+  flutter_native_timezone: ^1.1.0
+  http: ^0.13.3
+  path_provider: ^2.0.2
+  rxdart: ^0.27.1
+  shared_preferences: ^2.0.6
+  table_calendar: ^3.0.0
+  device_calendar: ^3.1.0
+
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - icons/
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+  flutter: ">=1.26.0-0" # allows for using integration_test from SDK
